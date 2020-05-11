@@ -12,14 +12,107 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f965d88500fbaad45b6be79721bea4c1, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 072f607a478ef3498d4f39d0b2452401
+    GuidInternal: 
+    m_lastTime: -8586124023616560356
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: d92d41b44745154a876210a599ddd2b9
+    GuidInternal: 
+    m_lastTime: -8586124023617969558
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 3a8f175ad8e61647880c2bafc544d118
+    GuidInternal: 
+    m_lastTime: -8586123988501539282
+    List:
+    - name: Main
+      guid: 1268a80935710d439cf162ac287f85fc
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 96bff58527b1ed458f076d1b9157664f
+    GuidInternal: 
+    m_lastTime: -8586123988501719243
+    List:
+    - name: MainMenuMusic
+      guid: b4f697aee8db0d41ba5d87bc44d5319d
+      id: 1991862712
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainMenuMusic
+        ObjectType: 3
+      Path: Default Work Unit\MainMenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start_Button
+      guid: 08403767cf67cc44b4250274e741f522
+      id: 2674457354
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start_Button
+        ObjectType: 3
+      Path: Default Work Unit\Start_Button
+      maxAttenuation: 0
+      maxDuration: 8.181882
+      minDuration: 8.181882
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: da9f4e8e6b481840aba2f3989c1a688b
+    GuidInternal: 
+    m_lastTime: -8586124023617299932
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 7f054ec0c56a9a45aa49987cac846584
+    GuidInternal: 
+    m_lastTime: -8586124023616880184
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 3f736971d3d5914a9974dc9c4d4c7520
+    GuidInternal: 
+    m_lastTime: -8586124023617699720
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: b3e2faff1ab79c47bafdb33e3d51a2cd
+    GuidInternal: 
+    m_lastTime: -8586124023616630329
+    List: []
+  ExpandedItems:
+  - /Herbs_WwiseProject
+  - /Herbs_WwiseProject/Events
+  - /Herbs_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

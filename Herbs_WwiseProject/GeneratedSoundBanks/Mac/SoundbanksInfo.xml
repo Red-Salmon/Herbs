@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1991862712" Name="MainMenuMusic" ObjectPath="\Events\Default Work Unit\MainMenuMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="475949184" Language="SFX">
+							<ShortName>MainMenu001_80bpm_17M.wav</ShortName>
+							<Path>SFX\MainMenu001_80bpm_17M_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2674457354" Name="Start_Button" ObjectPath="\Events\Default Work Unit\Start_Button" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
+					<IncludedMemoryFiles>
+						<File Id="453915125" Language="SFX">
+							<ShortName>Door_Open.wav</ShortName>
+							<Path>SFX\Door_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

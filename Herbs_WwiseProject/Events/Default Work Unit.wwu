@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MainMenuMusic" ID="{AE97F6B4-DBE8-410D-BA5D-87BC44D5319D}">
+					<ChildrenList>
+						<Action Name="" ID="{B50046D6-6F6F-43FB-AF53-AEF79D36B3A5}" ShortID="905406044">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenu001" ID="{2F60104E-90BE-4D8E-A426-2D39BE245704}" WorkUnitID="{EE7C8119-978C-44A7-A20F-D0C9EACD4A7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Start_Button" ID="{67374008-67CF-44CC-B425-0274E741F522}">
+					<ChildrenList>
+						<Action Name="" ID="{58DE2A9D-1B8D-4523-A652-CE17C6E2FAE0}" ShortID="730684974">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{731AD191-E098-47F2-A8FF-229CDAD32B3E}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
