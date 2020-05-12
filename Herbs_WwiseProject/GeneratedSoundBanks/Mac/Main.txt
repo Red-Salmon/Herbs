@@ -1,8 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
+	930585664	Craft_Window			\Default Work Unit\Craft_Window	
+	1510981555	Leather_Open			\Default Work Unit\Leather_Open	
 	1991862712	MainMenuMusic			\Default Work Unit\MainMenuMusic	
+	2495190111	Herbs			\Default Work Unit\Herbs	
 	2674457354	Start_Button			\Default Work Unit\Start_Button	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	446364820	Leather_Bag_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Leather_Bag_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leather_Bag_Open		97112
 	453915125	Door_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open		1443348
 	475949184	MainMenu001_80bpm_17M	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\MainMenu001_80bpm_17M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu001\MainMenu001_80bpm_17M\MainMenu001_80bpm_17M		8996464
+	551646501	Herb_Touch_002	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Herb_Touch_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_002		167048
+	659592312	Herb_Touch_001	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Herb_Touch_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_001		151724
+	668626922	Herb_Touch_003	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Herb_Touch_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_003		190036
+	833459581	Herb_Touch_004	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Herb_Touch_004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_004		127776
+	851205700	Glass_Clink_Cork	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Glass_Clink_Cork_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Glass_Clink_Cork		233932
 

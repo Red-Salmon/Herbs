@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a8f175ad8e61647880c2bafc544d118
     GuidInternal: 
-    m_lastTime: -8586123988501539282
+    m_lastTime: -8586123060449997192
     List:
     - name: Main
       guid: 1268a80935710d439cf162ac287f85fc
@@ -56,8 +56,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 96bff58527b1ed458f076d1b9157664f
     GuidInternal: 
-    m_lastTime: -8586123988501719243
+    m_lastTime: -8586123060449917159
     List:
+    - name: Herbs
+      guid: 20acf4700edeac41aed3ee601598f90c
+      id: 2495190111
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Herbs
+        ObjectType: 3
+      Path: Default Work Unit\Herbs
+      maxAttenuation: 0
+      maxDuration: 1.32128
+      minDuration: 0.599034
+    - name: Leather_Open
+      guid: 1228e3d17908f041a57ed1d4c0d1e577
+      id: 1510981555
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leather_Open
+        ObjectType: 3
+      Path: Default Work Unit\Leather_Open
+      maxAttenuation: 0
+      maxDuration: 0.550159
+      minDuration: 0.550159
     - name: MainMenuMusic
       guid: b4f697aee8db0d41ba5d87bc44d5319d
       id: 1991862712

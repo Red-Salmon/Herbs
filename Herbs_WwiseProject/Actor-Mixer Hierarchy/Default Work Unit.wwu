@@ -25,6 +25,165 @@
 						<ActiveSource Name="Door_Open" ID="{6FDB2F33-7C80-4FCA-B3D4-C09FE4205720}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Leather_Bag_Open" ID="{BD09D233-0D74-4617-A11D-589E3ED572ED}" ShortID="436176256">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Leather_Bag_Open" ID="{EC29D09F-EC19-4ACE-8472-F1275C7B1CE0}">
+							<Language>SFX</Language>
+							<AudioFile>Leather_Bag_Open.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="446364820"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Leather_Bag_Open" ID="{EC29D09F-EC19-4ACE-8472-F1275C7B1CE0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Herbs_Click" ID="{7039027B-8674-4F1E-AC28-A3C426A8B6E2}" ShortID="763509758">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{65997EDB-E2C1-4E31-B8FC-F6D04D207B2A}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="328"/>
+											<Property Name="Min" Type="Real64" Value="-354"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Herb_Touch_001" ID="{4A5F1D75-5BDA-4489-981A-8342FFE7AAE1}" ShortID="410883552">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Herb_Touch_001" ID="{5AF49237-89AA-4295-80AC-AD2FE5A55F3C}">
+									<Language>SFX</Language>
+									<AudioFile>Herb_Touch_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="659592312"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Herb_Touch_001" ID="{5AF49237-89AA-4295-80AC-AD2FE5A55F3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Herb_Touch_002" ID="{D14EEC42-712F-4D9B-95BE-BAF7590BE4DC}" ShortID="446712034">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Herb_Touch_002" ID="{B8673913-3046-4921-A7CC-822E725AF044}">
+									<Language>SFX</Language>
+									<AudioFile>Herb_Touch_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551646501"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Herb_Touch_002" ID="{B8673913-3046-4921-A7CC-822E725AF044}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Herb_Touch_003" ID="{B9978B2E-A25D-44CA-8046-6335EADCA37D}" ShortID="1070521330">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Herb_Touch_003" ID="{E05604AE-9E12-4332-A796-2D03A7D86AA7}">
+									<Language>SFX</Language>
+									<AudioFile>Herb_Touch_003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668626922"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Herb_Touch_003" ID="{E05604AE-9E12-4332-A796-2D03A7D86AA7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Herb_Touch_004" ID="{260CA368-017D-447B-A261-48B8CB235405}" ShortID="1043387865">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Herb_Touch_004" ID="{CB8F5E3D-04AD-40B0-B501-DBB16903E8C2}">
+									<Language>SFX</Language>
+									<AudioFile>Herb_Touch_004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="833459581"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Herb_Touch_004" ID="{CB8F5E3D-04AD-40B0-B501-DBB16903E8C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Glass_Clink_Cork" ID="{DE4CC43B-6D87-40C8-A60B-F03DEBA128DB}" ShortID="889461">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Glass_Clink_Cork" ID="{7E181495-5E50-4846-9865-5BF0625C9155}">
+							<Language>SFX</Language>
+							<AudioFile>Glass_Clink_Cork.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="851205700"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Glass_Clink_Cork" ID="{7E181495-5E50-4846-9865-5BF0625C9155}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
