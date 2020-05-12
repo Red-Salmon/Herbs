@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A178F3A-E6D8-4716-880C-2BAFC544D118}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{5A178F3A-E6D8-4716-880C-2BAFC544D118}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{09A86812-7135-430D-9CF1-62AC287F85FC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainMenuMusic" ID="{AE97F6B4-DBE8-410D-BA5D-87BC44D5319D}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Button" ID="{67374008-67CF-44CC-B425-0274E741F522}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

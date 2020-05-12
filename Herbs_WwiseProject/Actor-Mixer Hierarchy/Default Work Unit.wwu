@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Door_Open" ID="{731AD191-E098-47F2-A8FF-229CDAD32B3E}" ShortID="85916472">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Door_Open" ID="{6FDB2F33-7C80-4FCA-B3D4-C09FE4205720}">
+							<Language>SFX</Language>
+							<AudioFile>Door_Open.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="453915125"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Door_Open" ID="{6FDB2F33-7C80-4FCA-B3D4-C09FE4205720}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

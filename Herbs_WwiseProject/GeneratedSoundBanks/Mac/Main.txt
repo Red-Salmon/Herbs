@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1991862712	MainMenuMusic			\Default Work Unit\MainMenuMusic	
+	2674457354	Start_Button			\Default Work Unit\Start_Button	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	453915125	Door_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open		1443348
+	475949184	MainMenu001_80bpm_17M	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Mac\SFX\MainMenu001_80bpm_17M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu001\MainMenu001_80bpm_17M\MainMenu001_80bpm_17M		8996464
+
