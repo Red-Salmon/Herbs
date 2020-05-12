@@ -5,10 +5,13 @@ using UnityEngine.EventSystems;
 
 public class clickhandler : MonoBehaviour, IPointerDownHandler
 {
-    
+
+    public herbs selectedHerb;
+
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Clicked on herb!");
+        Debug.Log("Clicked on " + selectedHerb.herbName);
+        mixingherbs.instance.SelectHerb(selectedHerb);
     }
 
 }
