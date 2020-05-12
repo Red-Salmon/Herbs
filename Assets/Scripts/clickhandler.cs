@@ -11,7 +11,8 @@ public class clickhandler : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("Clicked on " + selectedHerb.herbName);
-        mixingherbs.instance.SelectHerb(selectedHerb);
+        if (mixingherbs.instance.SelectHerb(selectedHerb))
+            LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.2f);
     }
 
 }

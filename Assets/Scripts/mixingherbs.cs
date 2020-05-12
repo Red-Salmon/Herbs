@@ -21,27 +21,56 @@ public class mixingherbs : MonoBehaviour
 
     #endregion
 
-    public delegate void OnMixingHerbs();
-    public OnMixingHerbs OnMixingHerbsCallback;
+    public delegate void OnHerbSelected();
+    public OnHerbSelected OnHerbSelectedCallback;
 
     public int maxHerbCount = 3;
     public List<herbs> herbList = new List<herbs>();
     
-    public void SelectHerb (herbs herb)
+    public bool SelectHerb (herbs herb)
     {
         if (herbList.Count >= maxHerbCount)
         {
             Debug.Log("No more herbs can be selected.");
-            return;
-        }
-        herbList.Add(herb);
+            return false;
+        } else
+        {
+            herbList.Add(herb);
 
-        if (herbList.Count == 3 && OnMixingHerbsCallback != null)
-            OnMixingHerbsCallback.Invoke();
+            if (OnHerbSelectedCallback != null)
+                 OnHerbSelectedCallback.Invoke();
+
+            return true;
+        }
+        
     }
 
     public void RemoveHerb (herbs herb)
     {
         herbList.Remove(herb);
+    }
+
+    public int WaterContent()
+    {
+        int total = 0;
+        for (int i = 0; i < herbList.Count; i++)
+            total += herbList[i].waterDelta;
+        return total;
+    }
+
+    public int FireContent()
+    {
+        int total = 0;
+        for (int i = 0; i < herbList.Count; i++)
+            total += herbList[i].fireDelta;
+        return total;
+    }
+
+    public int AirContent()
+    {
+        int total = 0;
+        for (int i = 0; i < herbList.Count; i++)
+            total += herbList[i].airDelta;
+        return total;
     }
 }
