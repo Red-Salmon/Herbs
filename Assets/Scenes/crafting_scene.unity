@@ -774,7 +774,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 10
   m_WholeNumbers: 1
-  m_Value: 5
+  m_Value: 4
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 10
   m_WholeNumbers: 1
-  m_Value: 5
+  m_Value: 9
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2274,8 +2274,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   herbsContainer: {fileID: 1674606090}
   slotsContainer: {fileID: 408192600}
+  doneButton: {fileID: 1856152219}
   patientCounterDisplay: {fileID: 43215319}
   patientCounter: 1
+  waterBar: {fileID: 534899202}
+  fireBar: {fileID: 967077916}
+  airBar: {fileID: 545575068}
 --- !u!114 &1374060296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3441,7 +3445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135.93, y: 104.62999}
+  m_AnchoredPosition: {x: -142.8, y: 98.93}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008217662

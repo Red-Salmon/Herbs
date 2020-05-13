@@ -18,7 +18,6 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Clicked on the done button");
         DoneButtonPress();
     }
 
@@ -26,9 +25,16 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
     {
         if (mymixingherbs.herbList.Count == 3)
         {
+            // Updating bar levels
             waterBar.SetBarValue(waterBar.BarValue() + mymixingherbs.WaterContent());
             fireBar.SetBarValue(fireBar.BarValue() + mymixingherbs.FireContent());
             airBar.SetBarValue(airBar.BarValue() + mymixingherbs.AirContent());
+
+            // Replacing the done button
+            LeanTween.scale(gameObject, new Vector3(0f, 0f, 0f), 0.3f);
+
+            // Evaluating success or failure
+
         }
     }
 }

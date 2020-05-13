@@ -8,6 +8,7 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 {
     public Transform herbsContainer;
     public Transform slotsContainer;
+    public Transform doneButton;
 
     public Text patientCounterDisplay;
     public int patientCounter = 1;
@@ -17,6 +18,10 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
     mixingherbs mymixingherbs;
 
     MixingHerbsSlot[] slotList;
+
+    public elementBar waterBar;
+    public elementBar fireBar;
+    public elementBar airBar;
 
     public void Start()
     {
@@ -42,7 +47,31 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         for (int i = 0; i < slotList.Length; i++)
             slotList[i].ClearSlot();
 
-        // Introducing new Patient
+        // Resetting the Mix Button
+        doneButton.localScale = new Vector3(1f, 1f, 1f);
 
+        // Introducing new Patient
+        Vector3 newPatient = RandomPatient(4);
+        waterBar.SetBarValue(newPatient.x);
+        fireBar.SetBarValue(newPatient.y);
+        airBar.SetBarValue(newPatient.z);
+    }
+
+    Vector3 RandomPatient(int HerbCount)
+    {
+        if (HerbCount == 4)
+        {
+            switch (Random.Range(1, 5))
+            {
+                case 1: return new Vector3(4f, 8f, 9f);
+                case 2: return new Vector3(3f, 6f, 3f);
+                case 3: return new Vector3(3f, 3f, 7f);
+                case 4: return new Vector3(1f, 6f, 7f);
+                default: return new Vector3(0f, 0f, 0f);
+            }
+        } else
+        {
+            return new Vector3(0f, 0f, 0f);
+        }
     }
 }

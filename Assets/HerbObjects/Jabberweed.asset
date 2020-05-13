@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Jabberweed
   m_EditorClassIdentifier: Assembly-CSharp::herbs
-  herbName: New Herb
+  herbName: Jabberweed
   icon: {fileID: 0}
-  waterDelta: 0
-  fireDelta: 0
-  airDelta: 0
+  waterDelta: -2
+  fireDelta: 1
+  airDelta: 1
