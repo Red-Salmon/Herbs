@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CRAFT_WINDOW = 930585664U;
+        static const AkUniqueID HERBS = 2495190111U;
+        static const AkUniqueID LEATHER_OPEN = 1510981555U;
         static const AkUniqueID MAINMENUMUSIC = 1991862712U;
         static const AkUniqueID START_BUTTON = 2674457354U;
     } // namespace EVENTS

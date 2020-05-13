@@ -7,10 +7,12 @@
 
 public class AkTriggerMouseEnter : AkTriggerBase
 {
-	private void OnMouseEnter()
+	private void OnMouseOver()
 	{
 		if (triggerDelegate != null)
 			triggerDelegate(null);
+
+		AkSoundEngine.PostEvent("Leather_Open", gameObject);
 	}
 }
 

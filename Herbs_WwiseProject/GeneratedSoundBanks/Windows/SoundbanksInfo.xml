@@ -21,6 +21,42 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="930585664" Name="Craft_Window" ObjectPath="\Events\Default Work Unit\Craft_Window" DurationType="OneShot" DurationMin="1.325782" DurationMax="1.325782">
+					<IncludedMemoryFiles>
+						<File Id="851205700" Language="SFX">
+							<ShortName>Glass_Clink_Cork.wav</ShortName>
+							<Path>SFX\Glass_Clink_Cork_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2495190111" Name="Herbs" ObjectPath="\Events\Default Work Unit\Herbs" DurationType="OneShot" DurationMin="0.599034" DurationMax="1.321280">
+					<IncludedMemoryFiles>
+						<File Id="551646501" Language="SFX">
+							<ShortName>Herb_Touch_002.wav</ShortName>
+							<Path>SFX\Herb_Touch_002_10C4C929.wem</Path>
+						</File>
+						<File Id="659592312" Language="SFX">
+							<ShortName>Herb_Touch_001.wav</ShortName>
+							<Path>SFX\Herb_Touch_001_10C4C929.wem</Path>
+						</File>
+						<File Id="668626922" Language="SFX">
+							<ShortName>Herb_Touch_003.wav</ShortName>
+							<Path>SFX\Herb_Touch_003_10C4C929.wem</Path>
+						</File>
+						<File Id="833459581" Language="SFX">
+							<ShortName>Herb_Touch_004.wav</ShortName>
+							<Path>SFX\Herb_Touch_004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1510981555" Name="Leather_Open" ObjectPath="\Events\Default Work Unit\Leather_Open" DurationType="OneShot" DurationMin="0.550159" DurationMax="0.550159">
+					<IncludedMemoryFiles>
+						<File Id="446364820" Language="SFX">
+							<ShortName>Leather_Bag_Open.wav</ShortName>
+							<Path>SFX\Leather_Bag_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1991862712" Name="MainMenuMusic" ObjectPath="\Events\Default Work Unit\MainMenuMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="475949184" Language="SFX">

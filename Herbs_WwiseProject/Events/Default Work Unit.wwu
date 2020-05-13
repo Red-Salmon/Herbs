@@ -25,6 +25,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Leather_Open" ID="{D1E32812-0879-41F0-A57E-D1D4C0D1E577}">
+					<ChildrenList>
+						<Action Name="" ID="{1BCC9379-11A1-44C3-8C0B-E465725A7493}" ShortID="856953262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leather_Bag_Open" ID="{BD09D233-0D74-4617-A11D-589E3ED572ED}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Herbs" ID="{70F4AC20-DE0E-41AC-AED3-EE601598F90C}">
+					<ChildrenList>
+						<Action Name="" ID="{DAC98039-F4D9-4E54-A886-BE98733C0F33}" ShortID="259475542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Herbs_Click" ID="{7039027B-8674-4F1E-AC28-A3C426A8B6E2}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Craft_Window" ID="{5CA7153D-B284-4728-983E-75176B0D65C2}">
+					<ChildrenList>
+						<Action Name="" ID="{7F3BBEC0-E009-4D01-8D4C-5A5D13477225}" ShortID="1014676182">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glass_Clink_Cork" ID="{DE4CC43B-6D87-40C8-A60B-F03DEBA128DB}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
