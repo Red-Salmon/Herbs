@@ -65,6 +65,62 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1678745262" Name="MainThemeMusic" ObjectPath="\Events\Default Work Unit\MainThemeMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="231789874" Language="SFX">
+							<ShortName>Body_120_34M_2TM.wav</ShortName>
+							<Path>SFX\Body_120_34M_2TM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="915858595" Language="SFX">
+							<ShortName>Intro_120_18M_1TM.wav</ShortName>
+							<Path>SFX\Intro_120_18M_1TM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="967726270" Language="SFX">
+							<ShortName>MidIntro_120_18M_1TM_P1M.wav</ShortName>
+							<Path>SFX\MidIntro_120_18M_1TM_P1M_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1011779209" Language="SFX">
+							<ShortName>Bridge_120_9M_1TM.wav</ShortName>
+							<Path>SFX\Bridge_120_9M_1TM_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3917885541" Name="MixButton" ObjectPath="\Events\Default Work Unit\MixButton" DurationType="OneShot" DurationMin="4.404467" DurationMax="4.404467">
+					<IncludedMemoryFiles>
+						<File Id="660173090" Language="SFX">
+							<ShortName>Create_Tincture_001.wav</ShortName>
+							<Path>SFX\Create_Tincture_001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="177218072" Name="NewPatient" ObjectPath="\Events\Default Work Unit\NewPatient" DurationType="OneShot" DurationMin="1.905125" DurationMax="1.905125">
+					<IncludedMemoryFiles>
+						<File Id="391172253" Language="SFX">
+							<ShortName>Door_Open 2.wav</ShortName>
+							<Path>SFX\Door_Open 2_E6C87DBD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1256449208" Name="OnFailure" ObjectPath="\Events\Default Work Unit\OnFailure" DurationType="OneShot" DurationMin="2.078345" DurationMax="2.078345">
+					<IncludedMemoryFiles>
+						<File Id="931330943" Language="SFX">
+							<ShortName>On_Failure_001.wav</ShortName>
+							<Path>SFX\On_Failure_001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="648923871" Name="OnSuccess" ObjectPath="\Events\Default Work Unit\OnSuccess" DurationType="OneShot" DurationMin="4.042857" DurationMax="4.042857">
+					<IncludedMemoryFiles>
+						<File Id="613261604" Language="SFX">
+							<ShortName>Success_001.wav</ShortName>
+							<Path>SFX\Success_001_10C4C929.wem</Path>
+						</File>
+						<File Id="994661327" Language="SFX">
+							<ShortName>Success_002.wav</ShortName>
+							<Path>SFX\Success_002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2674457354" Name="Start_Button" ObjectPath="\Events\Default Work Unit\Start_Button" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
 					<IncludedMemoryFiles>
 						<File Id="453915125" Language="SFX">

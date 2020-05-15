@@ -184,6 +184,133 @@
 						<ActiveSource Name="Glass_Clink_Cork" ID="{7E181495-5E50-4846-9865-5BF0625C9155}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Create_Tincture_001" ID="{46CB9093-BD4D-460B-835F-DE53E3886474}" ShortID="237519943">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Create_Tincture_001" ID="{4A52B80A-5F8B-4EEB-94ED-B610222D0AF7}">
+							<Language>SFX</Language>
+							<AudioFile>Create_Tincture_001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="660173090"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Create_Tincture_001" ID="{4A52B80A-5F8B-4EEB-94ED-B610222D0AF7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="OnSuccess" ID="{0B574DFD-A1E3-4F0E-B84A-81A1EB21C7F5}" ShortID="140272343">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Success_001" ID="{01F42986-07E6-4FF2-B7F5-2F26DA14E7D7}" ShortID="265316603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Success_001" ID="{4248700A-C2A7-41C9-A2F7-20FFA47E3F51}">
+									<Language>SFX</Language>
+									<AudioFile>Success_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="613261604"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Success_001" ID="{4248700A-C2A7-41C9-A2F7-20FFA47E3F51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Success_002" ID="{7F391434-9344-47F4-913A-56B5B3508D7D}" ShortID="390544930">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Success_002" ID="{34992DEC-C482-4D5E-BCF1-D540D3F384EC}">
+									<Language>SFX</Language>
+									<AudioFile>Success_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994661327"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Success_002" ID="{34992DEC-C482-4D5E-BCF1-D540D3F384EC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="On_Failure_001" ID="{9ADFC147-CDC3-4E3C-A25B-5C1FB154A839}" ShortID="372563777">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="On_Failure_001" ID="{5BEA2269-2653-4F99-A130-29C53E3E0DBC}">
+							<Language>SFX</Language>
+							<AudioFile>On_Failure_001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="931330943"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="On_Failure_001" ID="{5BEA2269-2653-4F99-A130-29C53E3E0DBC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Door_Open 2" ID="{0A148BAC-B1EF-4130-8EE0-AD624DE92FC7}" ShortID="186268554">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Door_Open 2" ID="{49EFF7AC-E6C9-4F0A-8F83-C22648C96AEC}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.724208368278818"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Door_Open 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="391172253"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Door_Open 2" ID="{49EFF7AC-E6C9-4F0A-8F83-C22648C96AEC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

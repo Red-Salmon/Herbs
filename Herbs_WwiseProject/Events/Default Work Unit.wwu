@@ -58,6 +58,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainThemeMusic" ID="{A6299090-98A3-4C0D-BE11-23CC8CE72D7C}">
+					<ChildrenList>
+						<Action Name="" ID="{1324908E-DCF9-48E6-A763-3059D552D931}" ShortID="49306016">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainThemMusic" ID="{FA32095D-121B-4A6F-9999-F269FC2CD682}" WorkUnitID="{EE7C8119-978C-44A7-A20F-D0C9EACD4A7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MixButton" ID="{907A0CEC-15B3-4709-9178-BC8DF18C9637}">
+					<ChildrenList>
+						<Action Name="" ID="{34A30FCC-4876-4F56-A48A-195B35E39D0D}" ShortID="288958174">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Create_Tincture_001" ID="{46CB9093-BD4D-460B-835F-DE53E3886474}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NewPatient" ID="{D983CED5-C06F-40B6-9B4A-1ADC63320BB0}">
+					<ChildrenList>
+						<Action Name="" ID="{76424CA2-0C7B-4C43-9F79-E9B2E700507D}" ShortID="59295688">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open 2" ID="{0A148BAC-B1EF-4130-8EE0-AD624DE92FC7}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnSuccess" ID="{B18827B0-75DB-463C-A79C-099FBD312DE1}">
+					<ChildrenList>
+						<Action Name="" ID="{4914B33A-4319-4B44-9F6D-F314B86FD784}" ShortID="139608562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OnSuccess" ID="{0B574DFD-A1E3-4F0E-B84A-81A1EB21C7F5}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnFailure" ID="{AE92EC86-C751-419D-ADB7-24CE6F9F8EF0}">
+					<ChildrenList>
+						<Action Name="" ID="{0DD8B6F1-CE48-4294-8CC8-87C9806E4EA0}" ShortID="792518147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="On_Failure_001" ID="{9ADFC147-CDC3-4E3C-A25B-5C1FB154A839}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
