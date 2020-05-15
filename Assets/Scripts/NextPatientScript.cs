@@ -8,14 +8,17 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 {
     public Transform herbsContainer;
     public Transform slotsContainer;
-    public Transform doneButton;
+    public GameObject doneButton;
+
+    public Image patientDisplay;
 
     public Text patientCounterDisplay;
-    public int patientCounter = 1;
+    int patientCounter = 1;
 
     Transform[] HerbList;
 
     mixingherbs mymixingherbs;
+    PatientList mypatientlist;
 
     MixingHerbsSlot[] slotList;
 
@@ -25,7 +28,11 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 
     public void Start()
     {
+        gameObject.transform.localScale = Vector3.zero;
+
         mymixingherbs = mixingherbs.instance;
+        mypatientlist = PatientList.instance;
+
         HerbList = herbsContainer.GetComponentsInChildren<Transform>();
         slotList = slotsContainer.GetComponentsInChildren<MixingHerbsSlot>();
     }
@@ -40,7 +47,9 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 
         // Resetting Herbs on display
         for (int i = 0; i < HerbList.Length; i++)
+        {
             HerbList[i].localScale = new Vector3(1f, 1f, 1f);
+        }
 
         // Resetting Selected Herbs
         mymixingherbs.herbList.Clear();
@@ -48,9 +57,12 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
             slotList[i].ClearSlot();
 
         // Resetting the Mix Button
-        doneButton.localScale = new Vector3(1f, 1f, 1f);
+        LeanTween.scale(gameObject, Vector3.zero, 0.2f).setOnComplete(OnComplete);
 
-        // Introducing new Patient
+        // Introducing new Patient in UI
+        patientDisplay.sprite = mypatientlist.nextPatient().sick;
+
+        // Updating new Patient Stats
         Vector3 newPatient = RandomPatient(4);
         waterBar.SetBarValue(newPatient.x);
         fireBar.SetBarValue(newPatient.y);
@@ -73,5 +85,10 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         {
             return new Vector3(0f, 0f, 0f);
         }
+    }
+
+    public void OnComplete()
+    {
+        LeanTween.scale(doneButton, Vector3.one, 0.2f);
     }
 }

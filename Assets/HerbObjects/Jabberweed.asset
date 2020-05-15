@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jabberweed
   m_EditorClassIdentifier: Assembly-CSharp::herbs
   herbName: Jabberweed
-  icon: {fileID: 0}
-  waterDelta: -2
-  fireDelta: 1
-  airDelta: 1
+  icon: {fileID: 21300000, guid: a8d4dc3a35f81d74dac81e633c5fc963, type: 3}
+  infoCard: {fileID: 21300000, guid: 7db229f8fc7e87e44bc3c9a0c983eefb, type: 3}
+  waterDelta: 0
+  fireDelta: 0
+  airDelta: 0

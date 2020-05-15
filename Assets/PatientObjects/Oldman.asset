@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff3e811a9413264892853e6384d7b27, type: 3}
+  m_Name: Oldman
+  m_EditorClassIdentifier: 
+  healthy: {fileID: 21300000, guid: ed22ff84c8cb5434eaf7d1f3094b99e8, type: 3}
+  sick: {fileID: 21300000, guid: ed2a873849a9243409a39fd2596286dc, type: 3}

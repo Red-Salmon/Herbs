@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::herbs
   herbName: Okra Flower
   icon: {fileID: 21300000, guid: 5bcf8aad73de2f24698c8b4d766020c6, type: 3}
+  infoCard: {fileID: 21300000, guid: 9b709fd187941764d9aa0aefce27273e, type: 3}
   waterDelta: 1
   fireDelta: 0
   airDelta: -4
