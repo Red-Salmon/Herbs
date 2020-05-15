@@ -65,6 +65,26 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1678745262" Name="MainThemeMusic" ObjectPath="\Events\Default Work Unit\MainThemeMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="280488548" Language="SFX">
+							<ShortName>Body_120_34M_2TM.wav</ShortName>
+							<Path>SFX\Body_120_34M_2TM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="570779554" Language="SFX">
+							<ShortName>Intro_120_18M_1TM.wav</ShortName>
+							<Path>SFX\Intro_120_18M_1TM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="731762092" Language="SFX">
+							<ShortName>MidIntro_120_18M_1TM_P1M.wav</ShortName>
+							<Path>SFX\MidIntro_120_18M_1TM_P1M_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757080275" Language="SFX">
+							<ShortName>Bridge_120_9M_1TM.wav</ShortName>
+							<Path>SFX\Bridge_120_9M_1TM_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2674457354" Name="Start_Button" ObjectPath="\Events\Default Work Unit\Start_Button" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
 					<IncludedMemoryFiles>
 						<File Id="453915125" Language="SFX">

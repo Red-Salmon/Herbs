@@ -10,6 +10,7 @@
 						<ObjectRef Name="Leather_Open" ID="{D1E32812-0879-41F0-A57E-D1D4C0D1E577}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Start_Button" ID="{67374008-67CF-44CC-B425-0274E741F522}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Craft_Window" ID="{5CA7153D-B284-4728-983E-75176B0D65C2}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainThemeMusic" ID="{03207209-9D8D-4945-B91B-A57FFF8A9F39}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

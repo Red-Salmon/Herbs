@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MainThemeMusic" ID="{03207209-9D8D-4945-B91B-A57FFF8A9F39}">
+					<ChildrenList>
+						<Action Name="" ID="{814AE21E-42E3-4B43-A788-086965608193}" ShortID="94127922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainTheme" ID="{1DA444AA-D457-499D-B460-A5ABCD2016D1}" WorkUnitID="{EE7C8119-978C-44A7-A20F-D0C9EACD4A7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

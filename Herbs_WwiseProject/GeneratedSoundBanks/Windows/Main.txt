@@ -1,17 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	930585664	Craft_Window			\Default Work Unit\Craft_Window	
 	1510981555	Leather_Open			\Default Work Unit\Leather_Open	
+	1678745262	MainThemeMusic			\Default Work Unit\MainThemeMusic	
 	1991862712	MainMenuMusic			\Default Work Unit\MainMenuMusic	
 	2495190111	Herbs			\Default Work Unit\Herbs	
 	2674457354	Start_Button			\Default Work Unit\Start_Button	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	280488548	Body_120_34M_2TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Body_120_34M_2TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainTheme\Body_120_34M_2TM\Body_120_34M_2TM		8996464
 	446364820	Leather_Bag_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Leather_Bag_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leather_Bag_Open		97112
 	453915125	Door_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open		1443348
 	475949184	MainMenu001_80bpm_17M	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\MainMenu001_80bpm_17M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu001\MainMenu001_80bpm_17M\MainMenu001_80bpm_17M		8996464
 	551646501	Herb_Touch_002	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Herb_Touch_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_002		167048
+	570779554	Intro_120_18M_1TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Intro_120_18M_1TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainTheme\Intro_120_18M_1TM\Intro_120_18M_1TM		4498264
 	659592312	Herb_Touch_001	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Herb_Touch_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_001		151724
 	668626922	Herb_Touch_003	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Herb_Touch_003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_003		190036
+	731762092	MidIntro_120_18M_1TM_P1M	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\MidIntro_120_18M_1TM_P1M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainTheme\MidIntro_120_18M_1TM_P1M\MidIntro_120_18M_1TM_P1M		4762864
+	757080275	Bridge_120_9M_1TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Bridge_120_9M_1TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainTheme\Bridge_120_9M_1TM\Bridge_120_9M_1TM		2381464
 	833459581	Herb_Touch_004	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Herb_Touch_004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Herbs_Click\Herb_Touch_004		127776
 	851205700	Glass_Clink_Cork	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Glass_Clink_Cork_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Glass_Clink_Cork		233932
 
