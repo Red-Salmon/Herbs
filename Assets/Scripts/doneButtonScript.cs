@@ -40,7 +40,7 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
             StartCoroutine(myDelay());
 
             // Replacing the done button
-            LeanTween.scale(gameObject, Vector3.zero, 0.2f).setOnComplete(OnComplete);
+            LeanTween.scale(gameObject, Vector3.zero, 0.2f);
          IEnumerator myDelay()
             {
                 yield return new WaitForSeconds(2f);
@@ -49,14 +49,14 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
                 {
                     // Success
                     patientDisplay.GetComponent<Image>().sprite = mypatientlist.currentPatient.healthy;
-                    LeanTween.moveLocalY(patientDisplay, 1f, 0.3f).setLoopPingPong(1);
+                    LeanTween.moveLocalY(patientDisplay, 1f, 0.3f).setLoopPingPong(1).setOnComplete(OnComplete);
                     AkSoundEngine.PostEvent("OnSuccess", gameObject);
                 }
                 else
                 {
                     // Failure
                     LeanTween.scaleY(patientDisplay, 0.2f, 0.3f).setLoopPingPong(1);
-                    LeanTween.moveLocalY(patientDisplay, -1f, 0.3f).setLoopPingPong(1);
+                    LeanTween.moveLocalY(patientDisplay, -1f, 0.3f).setLoopPingPong(1).setOnComplete(OnComplete);
                     AkSoundEngine.PostEvent("OnFailure", gameObject);
                 }
             }

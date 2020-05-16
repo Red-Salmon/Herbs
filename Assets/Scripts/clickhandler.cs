@@ -12,6 +12,11 @@ public class clickhandler : MonoBehaviour, IPointerDownHandler, IPointerEnterHan
 
     public bool selected = false;
 
+    public void Start()
+    {
+        gameObject.GetComponent<Image>().sprite = selectedHerb.icon;
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
         if (mixingherbs.instance.SelectHerb(selectedHerb) && selected == false)

@@ -63,22 +63,22 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         patientDisplay.sprite = mypatientlist.nextPatient().sick;
 
         // Updating new Patient Stats
-        Vector3 newPatient = RandomPatient(4);
+        Vector3 newPatient = RandomPatientStats(4);
         waterBar.SetBarValue(newPatient.x);
         fireBar.SetBarValue(newPatient.y);
         airBar.SetBarValue(newPatient.z);
     }
 
-    Vector3 RandomPatient(int HerbCount)
+    Vector3 RandomPatientStats(int HerbCount)
     {
         if (HerbCount == 4)
         {
             switch (Random.Range(1, 5))
             {
-                case 1: return new Vector3(4f, 8f, 9f);
-                case 2: return new Vector3(3f, 6f, 3f);
-                case 3: return new Vector3(3f, 3f, 7f);
-                case 4: return new Vector3(1f, 6f, 7f);
+                case 1: return new Vector3(4f, 7f, 7f);
+                case 2: return new Vector3(5f, 9f, 7f);
+                case 3: return new Vector3(5f, 7f, 9f);
+                case 4: return new Vector3(3f, 9f, 9f);
                 default: return new Vector3(0f, 0f, 0f);
             }
         } else
