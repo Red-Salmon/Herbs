@@ -184,28 +184,6 @@
 						<ActiveSource Name="Glass_Clink_Cork" ID="{7E181495-5E50-4846-9865-5BF0625C9155}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Create_Tincture_001" ID="{46CB9093-BD4D-460B-835F-DE53E3886474}" ShortID="237519943">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Create_Tincture_001" ID="{4A52B80A-5F8B-4EEB-94ED-B610222D0AF7}">
-							<Language>SFX</Language>
-							<AudioFile>Create_Tincture_001.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="660173090"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Create_Tincture_001" ID="{4A52B80A-5F8B-4EEB-94ED-B610222D0AF7}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<RandomSequenceContainer Name="OnSuccess" ID="{0B574DFD-A1E3-4F0E-B84A-81A1EB21C7F5}" ShortID="140272343">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -309,6 +287,143 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Door_Open 2" ID="{49EFF7AC-E6C9-4F0A-8F83-C22648C96AEC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Scribble" ID="{F473E9AE-065D-455E-A8F0-B63774111694}" ShortID="238076344">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F657E773-6376-4DDE-A008-261F342BB39C}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="328"/>
+											<Property Name="Min" Type="Real64" Value="-278"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Scribble_001" ID="{65BD7BD7-F015-4E1B-892C-58E29E63E1F8}" ShortID="525845342">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scribble_001" ID="{A4BFA340-D87A-4D3B-98AD-6A32540BFD7E}">
+									<Language>SFX</Language>
+									<AudioFile>Scribble_001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="709183689"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scribble_001" ID="{A4BFA340-D87A-4D3B-98AD-6A32540BFD7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Scribble_002" ID="{0833FEA2-4F4B-4AD4-8368-E43AE50F05E5}" ShortID="449690822">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scribble_002" ID="{000C2B48-9C37-491C-A65B-66E3DF72837C}">
+									<Language>SFX</Language>
+									<AudioFile>Scribble_002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="711392128"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scribble_002" ID="{000C2B48-9C37-491C-A65B-66E3DF72837C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Door_Slam" ID="{74598224-5F24-4BF9-88F6-B698FDFA2B34}" ShortID="87555721">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Door_Slam" ID="{70407898-A46D-4E02-89A1-CFC4CF643E3A}">
+							<Language>SFX</Language>
+							<AudioFile>Door_Slam.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="637576060"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Door_Slam" ID="{70407898-A46D-4E02-89A1-CFC4CF643E3A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Create_Tincture_002" ID="{6B3B207B-0C9A-483C-BA5F-23ED6C4A5850}" ShortID="48838241">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Create_Tincture_002" ID="{05326666-F7D7-4332-9A46-05AE29AA010A}">
+							<Language>SFX</Language>
+							<AudioFile>Create_Tincture_002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="358627991"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Create_Tincture_002" ID="{05326666-F7D7-4332-9A46-05AE29AA010A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Page_Turn" ID="{99CBFF0B-5EEC-4781-AFE4-E7DC31263B71}" ShortID="951119830">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Page_Turn" ID="{E78D2167-1197-40EC-8415-97B04FFFEC04}">
+							<Language>SFX</Language>
+							<AudioFile>Page_Turn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="929617042"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Page_Turn" ID="{E78D2167-1197-40EC-8415-97B04FFFEC04}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

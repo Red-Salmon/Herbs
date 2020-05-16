@@ -41,9 +41,11 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
 
             // Replacing the done button
             LeanTween.scale(gameObject, Vector3.zero, 0.2f);
+
+         // Set a delay timer of 2.5 seconds
          IEnumerator myDelay()
             {
-                yield return new WaitForSeconds(2f);
+                yield return new WaitForSeconds(2.5f);
                 // Evaluating success or failure
                 if (waterBar.BarValue() == 5 && fireBar.BarValue() == 5 && airBar.BarValue() == 5)
                 {

@@ -71,10 +71,10 @@
 				</Event>
 				<Event Name="MixButton" ID="{907A0CEC-15B3-4709-9178-BC8DF18C9637}">
 					<ChildrenList>
-						<Action Name="" ID="{34A30FCC-4876-4F56-A48A-195B35E39D0D}" ShortID="288958174">
+						<Action Name="" ID="{ACF9C897-E97A-415F-9673-EB5A3D62A9EE}" ShortID="952537813">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Create_Tincture_001" ID="{46CB9093-BD4D-460B-835F-DE53E3886474}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+									<ObjectRef Name="Create_Tincture_002" ID="{6B3B207B-0C9A-483C-BA5F-23ED6C4A5850}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -108,6 +108,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="On_Failure_001" ID="{9ADFC147-CDC3-4E3C-A25B-5C1FB154A839}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open" ID="{17F2707C-D917-4C58-8F2D-A8A61A38569D}">
+					<ChildrenList>
+						<Action Name="" ID="{44F7E44A-7CF4-4400-8BFD-14284A76C0B3}" ShortID="193182580">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{731AD191-E098-47F2-A8FF-229CDAD32B3E}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Close" ID="{450AA5C4-CC6F-4861-A96A-7872FACEB84C}">
+					<ChildrenList>
+						<Action Name="" ID="{58CB3731-EC51-4C3B-B440-586429F7B68D}" ShortID="445338532">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Slam" ID="{74598224-5F24-4BF9-88F6-B698FDFA2B34}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Scribble" ID="{5CD9D3C9-A7B3-44FF-BFD1-6CEA05F1F53D}">
+					<ChildrenList>
+						<Action Name="" ID="{B09E6B0F-B4AF-487C-B22D-C5D456BC1CBB}" ShortID="974246033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scribble" ID="{F473E9AE-065D-455E-A8F0-B63774111694}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Page_Turn" ID="{4714B5E5-401A-4F92-8EDF-D4D60362CED8}">
+					<ChildrenList>
+						<Action Name="" ID="{5036A848-4D24-462A-ADE1-713295A4765A}" ShortID="249461646">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Page_Turn" ID="{99CBFF0B-5EEC-4781-AFE4-E7DC31263B71}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

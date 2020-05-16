@@ -11,10 +11,14 @@
 						<ObjectRef Name="Herbs" ID="{70F4AC20-DE0E-41AC-AED3-EE601598F90C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Leather_Open" ID="{D1E32812-0879-41F0-A57E-D1D4C0D1E577}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Start_Button" ID="{67374008-67CF-44CC-B425-0274E741F522}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Scribble" ID="{5CD9D3C9-A7B3-44FF-BFD1-6CEA05F1F53D}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OnSuccess" ID="{B18827B0-75DB-463C-A79C-099FBD312DE1}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MixButton" ID="{907A0CEC-15B3-4709-9178-BC8DF18C9637}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Craft_Window" ID="{5CA7153D-B284-4728-983E-75176B0D65C2}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Close" ID="{450AA5C4-CC6F-4861-A96A-7872FACEB84C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainThemeMusic" ID="{A6299090-98A3-4C0D-BE11-23CC8CE72D7C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Open" ID="{17F2707C-D917-4C58-8F2D-A8A61A38569D}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Page_Turn" ID="{4714B5E5-401A-4F92-8EDF-D4D60362CED8}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
