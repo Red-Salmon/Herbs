@@ -1,13 +1,30 @@
 Event	ID	Name			Wwise Object Path	Notes
+<<<<<<< Updated upstream
+=======
+	128625444	Door_Close			\Default Work Unit\Door_Close	
+	177218072	NewPatient			\Default Work Unit\NewPatient	
+	535830432	Door_Open			\Default Work Unit\Door_Open	
+	648923871	OnSuccess			\Default Work Unit\OnSuccess	
+>>>>>>> Stashed changes
 	930585664	Craft_Window			\Default Work Unit\Craft_Window	
 	1510981555	Leather_Open			\Default Work Unit\Leather_Open	
 	1678745262	MainThemeMusic			\Default Work Unit\MainThemeMusic	
 	1991862712	MainMenuMusic			\Default Work Unit\MainMenuMusic	
+	2417181057	Scribble			\Default Work Unit\Scribble	
 	2495190111	Herbs			\Default Work Unit\Herbs	
 	2674457354	Start_Button			\Default Work Unit\Start_Button	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+<<<<<<< Updated upstream
 	280488548	Body_120_34M_2TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Body_120_34M_2TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainTheme\Body_120_34M_2TM\Body_120_34M_2TM		8996464
+=======
+	175693518	Scribble_002	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Scribble_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scribble\Scribble_002		122188
+	231789874	Body_120_34M_2TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Body_120_34M_2TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainThemMusic\Body_120_34M_2TM\Body_120_34M_2TM		8996464
+	363020644	Door_Slam	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Door_Slam_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Slam		328580
+	364574891	Scribble_001	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Scribble_001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Scribble\Scribble_001		122188
+	391172253	Door_Open 2	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Door_Open 2_80ED7D4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open 2		336128
+	418223777	Create_Tincture_002	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Create_Tincture_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Create_Tincture_002		488556
+>>>>>>> Stashed changes
 	446364820	Leather_Bag_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Leather_Bag_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leather_Bag_Open		97112
 	453915125	Door_Open	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Door_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open		1443348
 	475949184	MainMenu001_80bpm_17M	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\MainMenu001_80bpm_17M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenu001\MainMenu001_80bpm_17M\MainMenu001_80bpm_17M		8996464

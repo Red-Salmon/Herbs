@@ -29,6 +29,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="128625444" Name="Door_Close" ObjectPath="\Events\Default Work Unit\Door_Close" DurationType="OneShot" DurationMin="1.862336" DurationMax="1.862336">
+					<IncludedMemoryFiles>
+						<File Id="363020644" Language="SFX">
+							<ShortName>Door_Slam.wav</ShortName>
+							<Path>SFX\Door_Slam_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
+					<IncludedMemoryFiles>
+						<File Id="453915125" Language="SFX">
+							<ShortName>Door_Open.wav</ShortName>
+							<Path>SFX\Door_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2495190111" Name="Herbs" ObjectPath="\Events\Default Work Unit\Herbs" DurationType="OneShot" DurationMin="0.599034" DurationMax="1.321280">
 					<IncludedMemoryFiles>
 						<File Id="551646501" Language="SFX">
@@ -85,6 +101,57 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+<<<<<<< Updated upstream
+=======
+				<Event Id="3917885541" Name="MixButton" ObjectPath="\Events\Default Work Unit\MixButton" DurationType="OneShot" DurationMin="2.769229" DurationMax="2.769229">
+					<IncludedMemoryFiles>
+						<File Id="418223777" Language="SFX">
+							<ShortName>Create_Tincture_002.wav</ShortName>
+							<Path>SFX\Create_Tincture_002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="177218072" Name="NewPatient" ObjectPath="\Events\Default Work Unit\NewPatient" DurationType="OneShot" DurationMin="1.905125" DurationMax="1.905125">
+					<IncludedMemoryFiles>
+						<File Id="391172253" Language="SFX">
+							<ShortName>Door_Open 2.wav</ShortName>
+							<Path>SFX\Door_Open 2_80ED7D4E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1256449208" Name="OnFailure" ObjectPath="\Events\Default Work Unit\OnFailure" DurationType="OneShot" DurationMin="2.078345" DurationMax="2.078345">
+					<IncludedMemoryFiles>
+						<File Id="931330943" Language="SFX">
+							<ShortName>On_Failure_001.wav</ShortName>
+							<Path>SFX\On_Failure_001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="648923871" Name="OnSuccess" ObjectPath="\Events\Default Work Unit\OnSuccess" DurationType="OneShot" DurationMin="4.042857" DurationMax="4.042857">
+					<IncludedMemoryFiles>
+						<File Id="613261604" Language="SFX">
+							<ShortName>Success_001.wav</ShortName>
+							<Path>SFX\Success_001_10C4C929.wem</Path>
+						</File>
+						<File Id="994661327" Language="SFX">
+							<ShortName>Success_002.wav</ShortName>
+							<Path>SFX\Success_002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2417181057" Name="Scribble" ObjectPath="\Events\Default Work Unit\Scribble" DurationType="OneShot" DurationMin="0.589609" DurationMax="0.812907">
+					<IncludedMemoryFiles>
+						<File Id="175693518" Language="SFX">
+							<ShortName>Scribble_002.wav</ShortName>
+							<Path>SFX\Scribble_002_10C4C929.wem</Path>
+						</File>
+						<File Id="364574891" Language="SFX">
+							<ShortName>Scribble_001.wav</ShortName>
+							<Path>SFX\Scribble_001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+>>>>>>> Stashed changes
 				<Event Id="2674457354" Name="Start_Button" ObjectPath="\Events\Default Work Unit\Start_Button" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
 					<IncludedMemoryFiles>
 						<File Id="453915125" Language="SFX">

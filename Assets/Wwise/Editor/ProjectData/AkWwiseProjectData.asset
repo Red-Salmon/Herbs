@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a8f175ad8e61647880c2bafc544d118
     GuidInternal: 
-    m_lastTime: -8586123060449997192
+    m_lastTime: -8586119687205970103
     List:
     - name: Main
       guid: 1268a80935710d439cf162ac287f85fc
@@ -56,8 +56,44 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 96bff58527b1ed458f076d1b9157664f
     GuidInternal: 
-    m_lastTime: -8586123060449917159
+    m_lastTime: -8586119687206070051
     List:
+    - name: Craft_Window
+      guid: 3d15a75c84b22847983e75176b0d65c2
+      id: 930585664
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Craft_Window
+        ObjectType: 3
+      Path: Default Work Unit\Craft_Window
+      maxAttenuation: 0
+      maxDuration: 1.325782
+      minDuration: 1.325782
+    - name: Door_Close
+      guid: c1c55ceb821d97449bc049d8104dbf16
+      id: 128625444
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Close
+        ObjectType: 3
+      Path: Default Work Unit\Door_Close
+      maxAttenuation: 0
+      maxDuration: 1.862336
+      minDuration: 1.862336
+    - name: Door_Open
+      guid: 2f42f33ff03cdd45bef1dfa07802bd94
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Open
+        ObjectType: 3
+      Path: Default Work Unit\Door_Open
+      maxAttenuation: 0
+      maxDuration: 8.181882
+      minDuration: 8.181882
     - name: Herbs
       guid: 20acf4700edeac41aed3ee601598f90c
       id: 2495190111
@@ -94,6 +130,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MainThemeMusic
+      guid: 909029a6a3980d4cbe1123cc8ce72d7c
+      id: 1678745262
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainThemeMusic
+        ObjectType: 3
+      Path: Default Work Unit\MainThemeMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MixButton
+      guid: ec0c7a90b31509479178bc8df18c9637
+      id: 3917885541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MixButton
+        ObjectType: 3
+      Path: Default Work Unit\MixButton
+      maxAttenuation: 0
+      maxDuration: 2.769229
+      minDuration: 2.769229
+    - name: NewPatient
+      guid: d5ce83d96fc0b6409b4a1adc63320bb0
+      id: 177218072
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NewPatient
+        ObjectType: 3
+      Path: Default Work Unit\NewPatient
+      maxAttenuation: 0
+      maxDuration: 1.905125
+      minDuration: 1.905125
+    - name: OnFailure
+      guid: 86ec92ae51c79d41adb724ce6f9f8ef0
+      id: 1256449208
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OnFailure
+        ObjectType: 3
+      Path: Default Work Unit\OnFailure
+      maxAttenuation: 0
+      maxDuration: 2.078345
+      minDuration: 2.078345
+    - name: OnSuccess
+      guid: b02788b1db753c46a79c099fbd312de1
+      id: 648923871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OnSuccess
+        ObjectType: 3
+      Path: Default Work Unit\OnSuccess
+      maxAttenuation: 0
+      maxDuration: 4.042857
+      minDuration: 4.042857
     - name: Start_Button
       guid: 08403767cf67cc44b4250274e741f522
       id: 2674457354

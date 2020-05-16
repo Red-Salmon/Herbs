@@ -8,9 +8,19 @@
 						<ObjectRef Name="MainMenuMusic" ID="{AE97F6B4-DBE8-410D-BA5D-87BC44D5319D}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Herbs" ID="{70F4AC20-DE0E-41AC-AED3-EE601598F90C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Leather_Open" ID="{D1E32812-0879-41F0-A57E-D1D4C0D1E577}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Close" ID="{EB5CC5C1-1D82-4497-9BC0-49D8104DBF16}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Start_Button" ID="{67374008-67CF-44CC-B425-0274E741F522}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+<<<<<<< Updated upstream
 						<ObjectRef Name="Craft_Window" ID="{5CA7153D-B284-4728-983E-75176B0D65C2}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainThemeMusic" ID="{03207209-9D8D-4945-B91B-A57FFF8A9F39}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+=======
+						<ObjectRef Name="Door_Open" ID="{3FF3422F-3CF0-45DD-BEF1-DFA07802BD94}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OnSuccess" ID="{B18827B0-75DB-463C-A79C-099FBD312DE1}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MixButton" ID="{907A0CEC-15B3-4709-9178-BC8DF18C9637}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Craft_Window" ID="{5CA7153D-B284-4728-983E-75176B0D65C2}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Scribble" ID="{5AF14A2A-4211-4BA5-91BC-B13DCA57053B}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainThemeMusic" ID="{A6299090-98A3-4C0D-BE11-23CC8CE72D7C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+>>>>>>> Stashed changes
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

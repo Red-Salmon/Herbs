@@ -63,7 +63,88 @@
 						<Action Name="" ID="{814AE21E-42E3-4B43-A788-086965608193}" ShortID="94127922">
 							<ReferenceList>
 								<Reference Name="Target">
+<<<<<<< Updated upstream
 									<ObjectRef Name="MainTheme" ID="{1DA444AA-D457-499D-B460-A5ABCD2016D1}" WorkUnitID="{EE7C8119-978C-44A7-A20F-D0C9EACD4A7E}"/>
+=======
+									<ObjectRef Name="MainThemMusic" ID="{FA32095D-121B-4A6F-9999-F269FC2CD682}" WorkUnitID="{EE7C8119-978C-44A7-A20F-D0C9EACD4A7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MixButton" ID="{907A0CEC-15B3-4709-9178-BC8DF18C9637}">
+					<ChildrenList>
+						<Action Name="" ID="{B61258B8-2071-4158-AF45-F1D3772A656B}" ShortID="256473463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Create_Tincture_002" ID="{3911284C-6A93-42D7-8727-256F9A73FD0F}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NewPatient" ID="{D983CED5-C06F-40B6-9B4A-1ADC63320BB0}">
+					<ChildrenList>
+						<Action Name="" ID="{76424CA2-0C7B-4C43-9F79-E9B2E700507D}" ShortID="59295688">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open 2" ID="{0A148BAC-B1EF-4130-8EE0-AD624DE92FC7}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnSuccess" ID="{B18827B0-75DB-463C-A79C-099FBD312DE1}">
+					<ChildrenList>
+						<Action Name="" ID="{4914B33A-4319-4B44-9F6D-F314B86FD784}" ShortID="139608562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OnSuccess" ID="{0B574DFD-A1E3-4F0E-B84A-81A1EB21C7F5}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnFailure" ID="{AE92EC86-C751-419D-ADB7-24CE6F9F8EF0}">
+					<ChildrenList>
+						<Action Name="" ID="{0DD8B6F1-CE48-4294-8CC8-87C9806E4EA0}" ShortID="792518147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="On_Failure_001" ID="{9ADFC147-CDC3-4E3C-A25B-5C1FB154A839}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+>>>>>>> Stashed changes
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Open" ID="{3FF3422F-3CF0-45DD-BEF1-DFA07802BD94}">
+					<ChildrenList>
+						<Action Name="" ID="{B6743ED1-C849-4D71-98CF-840EC49DE5C7}" ShortID="391215260">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{731AD191-E098-47F2-A8FF-229CDAD32B3E}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_Close" ID="{EB5CC5C1-1D82-4497-9BC0-49D8104DBF16}">
+					<ChildrenList>
+						<Action Name="" ID="{40242147-B167-4293-9E1B-8D56D3E857A0}" ShortID="344399693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Slam" ID="{3FDB4B54-7B06-444B-BFC3-1DD6A808A568}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Scribble" ID="{5AF14A2A-4211-4BA5-91BC-B13DCA57053B}">
+					<ChildrenList>
+						<Action Name="" ID="{D1C6835E-07AC-4A69-848C-6048A81B4F2E}" ShortID="265161950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scribble" ID="{59B35790-5F45-4D5A-855E-BF1C8EDF1232}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
