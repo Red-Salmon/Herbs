@@ -116,10 +116,15 @@
 				</MusicPlaylistContainer>
 				<MusicPlaylistContainer Name="MainThemMusic" ID="{FA32095D-121B-4A6F-9999-F269FC2CD682}" ShortID="367296452">
 					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>14</Value>
+							</ValueList>
+						</Property>
 						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

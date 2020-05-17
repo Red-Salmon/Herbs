@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	177218072	NewPatient			\Default Work Unit\NewPatient	
 	535830432	Door_Open			\Default Work Unit\Door_Open	
 	648923871	OnSuccess			\Default Work Unit\OnSuccess	
+	802626478	Score_Win			\Default Work Unit\Score_Win	
 	930585664	Craft_Window			\Default Work Unit\Craft_Window	
 	1256449208	OnFailure			\Default Work Unit\OnFailure	
 	1510981555	Leather_Open			\Default Work Unit\Leather_Open	
@@ -15,6 +16,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4286538426	Page_Turn			\Default Work Unit\Page_Turn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	174094846	Score_Card_Win	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Score_Card_Win_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Score_Card_Win		1099728
 	231789874	Body_120_34M_2TM	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Body_120_34M_2TM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainThemMusic\Body_120_34M_2TM\Body_120_34M_2TM		8996464
 	358627991	Create_Tincture_002	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Create_Tincture_002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Create_Tincture_002		488556
 	391172253	Door_Open 2	D:\Middleware Projects\Github Clones\Herbs\Herbs_WwiseProject\.cache\Windows\SFX\Door_Open 2_80ED7D4E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open 2		336128

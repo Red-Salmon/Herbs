@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 072f607a478ef3498d4f39d0b2452401
     GuidInternal: 
-    m_lastTime: -8586124023616560356
+    m_lastTime: -8586119616954005409
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: d92d41b44745154a876210a599ddd2b9
     GuidInternal: 
-    m_lastTime: -8586124023617969558
+    m_lastTime: -8586119616963100194
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a8f175ad8e61647880c2bafc544d118
     GuidInternal: 
-    m_lastTime: -8586123060449997192
+    m_lastTime: -8586118680944925521
     List:
     - name: Main
       guid: 1268a80935710d439cf162ac287f85fc
@@ -56,8 +56,44 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 96bff58527b1ed458f076d1b9157664f
     GuidInternal: 
-    m_lastTime: -8586123060449917159
+    m_lastTime: -8586118680944835546
     List:
+    - name: Craft_Window
+      guid: 3d15a75c84b22847983e75176b0d65c2
+      id: 930585664
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Craft_Window
+        ObjectType: 3
+      Path: Default Work Unit\Craft_Window
+      maxAttenuation: 0
+      maxDuration: 1.325782
+      minDuration: 1.325782
+    - name: Door_Close
+      guid: c4a50a456fcc6148a96a7872faceb84c
+      id: 128625444
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Close
+        ObjectType: 3
+      Path: Default Work Unit\Door_Close
+      maxAttenuation: 0
+      maxDuration: 1.862336
+      minDuration: 1.862336
+    - name: Door_Open
+      guid: 7c70f21717d9584c8f2da8a61a38569d
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Door_Open
+        ObjectType: 3
+      Path: Default Work Unit\Door_Open
+      maxAttenuation: 0
+      maxDuration: 8.181882
+      minDuration: 8.181882
     - name: Herbs
       guid: 20acf4700edeac41aed3ee601598f90c
       id: 2495190111
@@ -94,6 +130,102 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: MainThemeMusic
+      guid: 909029a6a3980d4cbe1123cc8ce72d7c
+      id: 1678745262
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MainThemeMusic
+        ObjectType: 3
+      Path: Default Work Unit\MainThemeMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MixButton
+      guid: ec0c7a90b31509479178bc8df18c9637
+      id: 3917885541
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MixButton
+        ObjectType: 3
+      Path: Default Work Unit\MixButton
+      maxAttenuation: 0
+      maxDuration: 2.769229
+      minDuration: 2.769229
+    - name: NewPatient
+      guid: d5ce83d96fc0b6409b4a1adc63320bb0
+      id: 177218072
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NewPatient
+        ObjectType: 3
+      Path: Default Work Unit\NewPatient
+      maxAttenuation: 0
+      maxDuration: 1.905125
+      minDuration: 1.905125
+    - name: OnFailure
+      guid: 86ec92ae51c79d41adb724ce6f9f8ef0
+      id: 1256449208
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OnFailure
+        ObjectType: 3
+      Path: Default Work Unit\OnFailure
+      maxAttenuation: 0
+      maxDuration: 2.078345
+      minDuration: 2.078345
+    - name: OnSuccess
+      guid: b02788b1db753c46a79c099fbd312de1
+      id: 648923871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OnSuccess
+        ObjectType: 3
+      Path: Default Work Unit\OnSuccess
+      maxAttenuation: 0
+      maxDuration: 4.042857
+      minDuration: 4.042857
+    - name: Page_Turn
+      guid: e5b514471a40924f8edfd4d60362ced8
+      id: 4286538426
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Page_Turn
+        ObjectType: 3
+      Path: Default Work Unit\Page_Turn
+      maxAttenuation: 0
+      maxDuration: 1.014671
+      minDuration: 1.014671
+    - name: Score_Win
+      guid: 6a9de10dc327fe4dbe5e0a266a09ff34
+      id: 802626478
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Score_Win
+        ObjectType: 3
+      Path: Default Work Unit\Score_Win
+      maxAttenuation: 0
+      maxDuration: 6.233923
+      minDuration: 6.233923
+    - name: Scribble
+      guid: c9d3d95cb3a7ff44bfd16cea05f1f53d
+      id: 2417181057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Scribble
+        ObjectType: 3
+      Path: Default Work Unit\Scribble
+      maxAttenuation: 0
+      maxDuration: 0.812907
+      minDuration: 0.572824
     - name: Start_Button
       guid: 08403767cf67cc44b4250274e741f522
       id: 2674457354
@@ -111,28 +243,28 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: da9f4e8e6b481840aba2f3989c1a688b
     GuidInternal: 
-    m_lastTime: -8586124023617299932
+    m_lastTime: -8586119616970406032
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 7f054ec0c56a9a45aa49987cac846584
     GuidInternal: 
-    m_lastTime: -8586124023616880184
+    m_lastTime: -8586119616954145329
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 3f736971d3d5914a9974dc9c4d4c7520
     GuidInternal: 
-    m_lastTime: -8586124023617699720
+    m_lastTime: -8586119616954105355
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: b3e2faff1ab79c47bafdb33e3d51a2cd
     GuidInternal: 
-    m_lastTime: -8586124023616630329
+    m_lastTime: -8586119616954055386
     List: []
   ExpandedItems:
   - /Herbs_WwiseProject

@@ -24,6 +24,11 @@ public class mixingherbs : MonoBehaviour
     public delegate void OnHerbSelected();
     public OnHerbSelected OnHerbSelectedCallback;
 
+    public GameObject PlayButton;
+
+    [SerializeField]
+    private AK.Wwise.Event myEvent = null;
+
     public int maxHerbCount = 3;
     public List<herbs> herbList = new List<herbs>();
     
@@ -31,11 +36,13 @@ public class mixingherbs : MonoBehaviour
     {
         if (herbList.Count >= maxHerbCount)
         {
+            myEvent.Stop(PlayButton.gameObject);
             Debug.Log("No more herbs can be selected.");
             return false;
         } else
         {
             herbList.Add(herb);
+            AkSoundEngine.PostEvent("Herbs", gameObject);
 
             if (OnHerbSelectedCallback != null)
                  OnHerbSelectedCallback.Invoke();

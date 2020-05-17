@@ -10,6 +10,7 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
     public Transform slotsContainer;
     public GameObject doneButton;
     public GameObject scoreCard;
+    public GameObject Background;
 
     public Image patientDisplay;
 
@@ -28,6 +29,9 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
     public elementBar waterBar;
     public elementBar fireBar;
     public elementBar airBar;
+
+    [SerializeField]
+    private AK.Wwise.Event myEvent = null;
 
     public void Start()
     {
@@ -50,6 +54,8 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         if (patientCounter > 10)
         {
             scoreCard.SetActive(true);
+            myEvent.Stop(Background.gameObject);
+            AkSoundEngine.PostEvent("Score_Win", gameObject);
             return;
         }
 

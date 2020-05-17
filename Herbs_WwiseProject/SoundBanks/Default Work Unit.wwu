@@ -18,6 +18,7 @@
 						<ObjectRef Name="Door_Close" ID="{450AA5C4-CC6F-4861-A96A-7872FACEB84C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MainThemeMusic" ID="{A6299090-98A3-4C0D-BE11-23CC8CE72D7C}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_Open" ID="{17F2707C-D917-4C58-8F2D-A8A61A38569D}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Score_Win" ID="{0DE19D6A-27C3-4DFE-BE5E-0A266A09FF34}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Page_Turn" ID="{4714B5E5-401A-4F92-8EDF-D4D60362CED8}" WorkUnitID="{85F5BF96-B127-45ED-8F07-6D1B9157664F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

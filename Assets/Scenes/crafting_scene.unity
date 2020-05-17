@@ -726,6 +726,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 937180020}
+        m_MethodName: Stop
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &341845174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2113,7 +2124,15 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: a585c760f7d2ac943b4f45f4ef29f5b2,
       type: 2}
   useCallbacks: 0
-  Callbacks: []
+  Callbacks:
+  - Flags:
+      value: 1
+    FunctionName: 
+    GameObject: {fileID: 1374060293}
+  - Flags:
+      value: 0
+    FunctionName: 
+    GameObject: {fileID: 0}
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
@@ -2122,7 +2141,8 @@ MonoBehaviour:
   m_callbackDataInternal: {fileID: 0}
   MultiPositionType: 1
   multiPositionTypeLabel: 0
-  LargeModePositions: []
+  LargeModePositions:
+  - {fileID: 0}
   multiPositionArray: []
 --- !u!114 &937180021
 MonoBehaviour:
@@ -2160,7 +2180,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937180018}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!114 &937180023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2355,7 +2375,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969518914}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -2934,7 +2954,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257162558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -3274,6 +3294,7 @@ MonoBehaviour:
   slotsContainer: {fileID: 408192600}
   doneButton: {fileID: 1856152218}
   scoreCard: {fileID: 572944273}
+  Background: {fileID: 0}
   patientDisplay: {fileID: 1647885480}
   patientCounterDisplay: {fileID: 43215319}
   patientCounter: 1
@@ -3281,6 +3302,11 @@ MonoBehaviour:
   waterBar: {fileID: 534899202}
   fireBar: {fileID: 1654868612}
   airBar: {fileID: 918178555}
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a585c760f7d2ac943b4f45f4ef29f5b2,
+      type: 2}
 --- !u!114 &1374060296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3533,6 +3559,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc375a54b20c8440b534a8dfffa2a64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayButton: {fileID: 0}
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   maxHerbCount: 3
   herbList: []
 --- !u!114 &1467072900
@@ -3934,7 +3965,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697155197}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -4688,6 +4719,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 937180020}
+        m_MethodName: Stop
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1861759011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5144,7 +5186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008217660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
