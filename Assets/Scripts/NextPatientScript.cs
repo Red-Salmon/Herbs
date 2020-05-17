@@ -16,6 +16,8 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
     public Text patientCounterDisplay;
     public int patientCounter = 1;
 
+    public GameObject RedoButton;
+
     Transform[] HerbList;
 
     mixingherbs mymixingherbs;
@@ -62,7 +64,8 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         for (int i = 0; i < slotList.Length; i++)
             slotList[i].ClearSlot();
 
-        // Resetting the Mix Button
+        // Resetting the Mix and Redo Button
+        LeanTween.scale(RedoButton, Vector3.one, 0.2f);
         LeanTween.scale(gameObject, Vector3.zero, 0.2f).setOnComplete(OnComplete);
 
         // Introducing new Patient in UI

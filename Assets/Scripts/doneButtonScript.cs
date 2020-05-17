@@ -15,6 +15,8 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
 
     public Text scoreDisplay;
 
+    public GameObject RedoButton;
+
     public elementBar waterBar;
     public elementBar fireBar;
     public elementBar airBar;
@@ -44,6 +46,9 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
 
             // Replacing the done button
             LeanTween.scale(gameObject, Vector3.zero, 0.2f);
+
+            // Hiding the redo button
+            LeanTween.scale(RedoButton, Vector3.zero, 0.2f);
 
             // Set a delay timer of 2.5 seconds
             IEnumerator myDelay()
