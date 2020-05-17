@@ -426,6 +426,28 @@
 						<ActiveSource Name="Page_Turn" ID="{E78D2167-1197-40EC-8415-97B04FFFEC04}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Score_Card_Win" ID="{8A341D3E-BA06-4F9E-9726-B7910BEBC296}" ShortID="987366504">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BB976A2E-A11C-4B2D-925D-9816CE71758D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B4412DD9-4547-4A15-8762-10A599DDD2B9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Score_Card_Win" ID="{E63147F7-CF87-4906-86C8-8C8BA146B7B9}">
+							<Language>SFX</Language>
+							<AudioFile>Score_Card_Win.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="174094846"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Score_Card_Win" ID="{E63147F7-CF87-4906-86C8-8C8BA146B7B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

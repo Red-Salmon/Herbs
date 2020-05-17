@@ -145,6 +145,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="802626478" Name="Score_Win" ObjectPath="\Events\Default Work Unit\Score_Win" DurationType="OneShot" DurationMin="6.233923" DurationMax="6.233923">
+					<IncludedMemoryFiles>
+						<File Id="174094846" Language="SFX">
+							<ShortName>Score_Card_Win.wav</ShortName>
+							<Path>SFX\Score_Card_Win_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2417181057" Name="Scribble" ObjectPath="\Events\Default Work Unit\Scribble" DurationType="OneShot" DurationMin="0.572824" DurationMax="0.812907">
 					<IncludedMemoryFiles>
 						<File Id="709183689" Language="SFX">

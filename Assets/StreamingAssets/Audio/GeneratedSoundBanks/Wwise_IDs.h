@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID ONFAILURE = 1256449208U;
         static const AkUniqueID ONSUCCESS = 648923871U;
         static const AkUniqueID PAGE_TURN = 4286538426U;
+        static const AkUniqueID SCORE_WIN = 802626478U;
         static const AkUniqueID SCRIBBLE = 2417181057U;
         static const AkUniqueID START_BUTTON = 2674457354U;
     } // namespace EVENTS

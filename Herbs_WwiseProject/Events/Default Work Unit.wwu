@@ -157,6 +157,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Score_Win" ID="{0DE19D6A-27C3-4DFE-BE5E-0A266A09FF34}">
+					<ChildrenList>
+						<Action Name="" ID="{F4E8C819-DB49-4238-AA42-F2E7F554A3F3}" ShortID="443934020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Score_Card_Win" ID="{8A341D3E-BA06-4F9E-9726-B7910BEBC296}" WorkUnitID="{70E694B7-83C1-4ECF-BF0F-46C89387705A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
