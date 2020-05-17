@@ -29,6 +29,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="128625444" Name="Door_Close" ObjectPath="\Events\Default Work Unit\Door_Close" DurationType="OneShot" DurationMin="1.862336" DurationMax="1.862336">
+					<IncludedMemoryFiles>
+						<File Id="637576060" Language="SFX">
+							<ShortName>Door_Slam.wav</ShortName>
+							<Path>SFX\Door_Slam_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Default Work Unit\Door_Open" DurationType="OneShot" DurationMin="8.181882" DurationMax="8.181882">
+					<IncludedMemoryFiles>
+						<File Id="453915125" Language="SFX">
+							<ShortName>Door_Open.wav</ShortName>
+							<Path>SFX\Door_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2495190111" Name="Herbs" ObjectPath="\Events\Default Work Unit\Herbs" DurationType="OneShot" DurationMin="0.599034" DurationMax="1.321280">
 					<IncludedMemoryFiles>
 						<File Id="551646501" Language="SFX">
@@ -85,11 +101,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3917885541" Name="MixButton" ObjectPath="\Events\Default Work Unit\MixButton" DurationType="OneShot" DurationMin="4.404467" DurationMax="4.404467">
+				<Event Id="3917885541" Name="MixButton" ObjectPath="\Events\Default Work Unit\MixButton" DurationType="OneShot" DurationMin="2.769229" DurationMax="2.769229">
 					<IncludedMemoryFiles>
-						<File Id="660173090" Language="SFX">
-							<ShortName>Create_Tincture_001.wav</ShortName>
-							<Path>SFX\Create_Tincture_001_10C4C929.wem</Path>
+						<File Id="358627991" Language="SFX">
+							<ShortName>Create_Tincture_002.wav</ShortName>
+							<Path>SFX\Create_Tincture_002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,7 +113,7 @@
 					<IncludedMemoryFiles>
 						<File Id="391172253" Language="SFX">
 							<ShortName>Door_Open 2.wav</ShortName>
-							<Path>SFX\Door_Open 2_E6C87DBD.wem</Path>
+							<Path>SFX\Door_Open 2_80ED7D4E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -118,6 +134,26 @@
 						<File Id="994661327" Language="SFX">
 							<ShortName>Success_002.wav</ShortName>
 							<Path>SFX\Success_002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4286538426" Name="Page_Turn" ObjectPath="\Events\Default Work Unit\Page_Turn" DurationType="OneShot" DurationMin="1.014671" DurationMax="1.014671">
+					<IncludedMemoryFiles>
+						<File Id="929617042" Language="SFX">
+							<ShortName>Page_Turn.wav</ShortName>
+							<Path>SFX\Page_Turn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2417181057" Name="Scribble" ObjectPath="\Events\Default Work Unit\Scribble" DurationType="OneShot" DurationMin="0.572824" DurationMax="0.812907">
+					<IncludedMemoryFiles>
+						<File Id="709183689" Language="SFX">
+							<ShortName>Scribble_001.wav</ShortName>
+							<Path>SFX\Scribble_001_10C4C929.wem</Path>
+						</File>
+						<File Id="711392128" Language="SFX">
+							<ShortName>Scribble_002.wav</ShortName>
+							<Path>SFX\Scribble_002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
