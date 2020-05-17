@@ -13,10 +13,13 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
 
     public GameObject patientDisplay;
 
+    public Text scoreDisplay;
+
     public elementBar waterBar;
     public elementBar fireBar;
     public elementBar airBar;
 
+    public int Score = 0;
    
     void Start()
     {
@@ -42,8 +45,8 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
             // Replacing the done button
             LeanTween.scale(gameObject, Vector3.zero, 0.2f);
 
-         // Set a delay timer of 2.5 seconds
-         IEnumerator myDelay()
+            // Set a delay timer of 2.5 seconds
+            IEnumerator myDelay()
             {
                 yield return new WaitForSeconds(2.5f);
                 // Evaluating success or failure
@@ -53,6 +56,7 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
                     patientDisplay.GetComponent<Image>().sprite = mypatientlist.currentPatient.healthy;
                     LeanTween.moveLocalY(patientDisplay, 1f, 0.3f).setLoopPingPong(1).setOnComplete(OnComplete);
                     AkSoundEngine.PostEvent("OnSuccess", gameObject);
+                    Score++;
                 }
                 else
                 {
@@ -62,6 +66,9 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
                     AkSoundEngine.PostEvent("OnFailure", gameObject);
                 }
             }
+
+            // Updating the Score
+            scoreDisplay.text = Score.ToString() + " / 10";
         }
     }
 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   herbName: Meadow Giant
   icon: {fileID: 21300000, guid: f27c192690c008d45bb61d86b399bc85, type: 3}
-  infoCard: {fileID: 0}
+  infoCard: {fileID: 21300000, guid: 1aee8a68369aea94c8a7035c63592c87, type: 3}
   waterDelta: 0
   fireDelta: -2
   airDelta: -2
