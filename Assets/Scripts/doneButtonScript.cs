@@ -21,12 +21,14 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
     public elementBar fireBar;
     public elementBar airBar;
 
-    public int Score = 0;
+    public int Score;
    
     void Start()
     {
         mymixingherbs = mixingherbs.instance;
         mypatientlist = PatientList.instance;
+
+        Score = 0;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -61,7 +63,7 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
                     patientDisplay.GetComponent<Image>().sprite = mypatientlist.currentPatient.healthy;
                     LeanTween.moveLocalY(patientDisplay, 1f, 0.3f).setLoopPingPong(1).setOnComplete(OnComplete);
                     AkSoundEngine.PostEvent("OnSuccess", gameObject);
-                    Score++;
+                    ++Score;
                 }
                 else
                 {
@@ -73,7 +75,7 @@ public class doneButtonScript : MonoBehaviour, IPointerDownHandler
             }
 
             // Updating the Score
-            scoreDisplay.text = Score.ToString() + " / 10";
+            scoreDisplay.text = Score.ToString() + " / " + nextButton.GetComponent<NextPatientScript>().maxPatientInLevel;
         }
     }
 

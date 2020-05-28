@@ -9,7 +9,8 @@ public class ShortcutKeys : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("crafting_scene");
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
         } else if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("mainmenu_scene");

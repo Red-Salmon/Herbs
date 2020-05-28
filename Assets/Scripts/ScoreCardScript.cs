@@ -7,7 +7,8 @@ public class ScoreCardScript : MonoBehaviour
 {
     public void Retry()
     {
-        SceneManager.LoadScene("crafting_scene");
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 
     public void MainMenu()

@@ -41,13 +41,13 @@ public class PatientList : MonoBehaviour
         return currentPatient;
     }
 
-    public Vector3 nextPatientStats()
+    public Vector3 nextPatientStats(int HerbListLength)
     {
         // Generating new Patient Stats, ensuring that the new stats are different from the current one
         Vector3 newPatient = patientStats;
         while (newPatient == patientStats)
         {
-            newPatient = RandomPatientStats(4);
+            newPatient = RandomPatientStats(HerbListLength);
         }
         patientStats = newPatient;
         return patientStats;

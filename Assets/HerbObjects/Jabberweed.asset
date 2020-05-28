@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163522a247fbaca468f08a9b0f9232a1, type: 3}
+  m_Name: Jabberweed
+  m_EditorClassIdentifier: 
+  herbName: Jabberweed
+  icon: {fileID: 21300000, guid: a8d4dc3a35f81d74dac81e633c5fc963, type: 3}
+  infoCard: {fileID: 21300000, guid: 7db229f8fc7e87e44bc3c9a0c983eefb, type: 3}
+  waterDelta: -2
+  fireDelta: 0
+  airDelta: 0

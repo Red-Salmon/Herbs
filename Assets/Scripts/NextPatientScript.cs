@@ -16,6 +16,7 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 
     public Text patientCounterDisplay;
     public int patientCounter = 1;
+    public int maxPatientInLevel = 10;
 
     public GameObject RedoButton;
 
@@ -30,6 +31,8 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
     public elementBar fireBar;
     public elementBar airBar;
 
+    Vector3[] PatientStatsList;
+
     [SerializeField]
     private AK.Wwise.Event myEvent = null;
 
@@ -40,8 +43,18 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         mymixingherbs = mixingherbs.instance;
         mypatientlist = PatientList.instance;
 
+        // Generating Lists
         HerbList = herbsContainer.GetComponentsInChildren<Transform>();
         slotList = slotsContainer.GetComponentsInChildren<MixingHerbsSlot>();
+
+        // Selecting Maximum Patients in Level
+        if (HerbList.Length - 1 == 4)
+            maxPatientInLevel = 10;
+        else if (HerbList.Length - 1 == 6)
+            maxPatientInLevel = 20;
+
+        // Generating List of Curable Patients
+
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -50,14 +63,14 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
 
         // Updating the Patient Counter
         patientCounter++;
-        patientCounterDisplay.text = "Patient # " + patientCounter + "/10";
-        if (patientCounter > 10)
+        if (patientCounter > maxPatientInLevel)
         {
             scoreCard.SetActive(true);
             myEvent.Stop(Background.gameObject);
             AkSoundEngine.PostEvent("Score_Win", gameObject);
             return;
         }
+        patientCounterDisplay.text = "Patient # " + patientCounter + "/" + maxPatientInLevel;
 
         // Resetting Herbs on display
         for (int i = 0; i < HerbList.Length; i++)
@@ -78,7 +91,7 @@ public class NextPatientScript : MonoBehaviour, IPointerDownHandler
         patientDisplay.sprite = mypatientlist.nextPatient().sick;
 
         // Updating new Patient Stats
-        Vector3 newPatient = mypatientlist.nextPatientStats();
+        Vector3 newPatient = mypatientlist.nextPatientStats(HerbList.Length - 1);
         waterBar.SetBarValue(newPatient.x);
         fireBar.SetBarValue(newPatient.y);
         airBar.SetBarValue(newPatient.z);

@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void EndlessMode()
+    public void StoryMode()
     {
-        SceneManager.LoadScene("crafting_scene");
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.buildIndex + 1);
     }
 
     public void QuitGame()
